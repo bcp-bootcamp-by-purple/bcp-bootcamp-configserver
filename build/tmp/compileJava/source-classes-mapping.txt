@@ -1,0 +1,2 @@
+com/bcp/bootcamp/configserver/ConfigServerApplication.java
+ com.bcp.bootcamp.configserver.ConfigServerApplication
