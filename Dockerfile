@@ -19,5 +19,5 @@ RUN ./gradlew --stacktrace clean test build
 FROM openjdk:11-jre
 LABEL maintainer="BCP-BOOTCAMP"
 WORKDIR /root/
-COPY --from=BUILD_IMAGE /root/dev/app/build/libs/bootcamp-shopvintage-bidders-*SNAPSHOT.jar /opt/app.jar
+COPY --from=BUILD_IMAGE /root/dev/app/build/libs/configserver-*SNAPSHOT.jar /opt/app.jar
 CMD ["java","-jar","/opt/app.jar"]
