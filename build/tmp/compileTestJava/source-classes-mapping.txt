@@ -1,2 +1,0 @@
-com/bcp/bootcamp/configserver/ConfigserverApplicationTests.java
- com.bcp.bootcamp.configserver.ConfigserverApplicationTests
